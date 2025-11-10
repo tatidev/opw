@@ -1,0 +1,30 @@
+ PKL_TEST20240909-F
+
+
+
+ github.com:PaulKLeasure/opuzen-opms.git
+
+
+/home/ubuntu/.ssh
+
+
+ github.com:PaulKLeasure/opuzen-website.git
+
+
+
+Show me how to create .ssh/config file including preoper permissions and check for erors based on the following:
+
+Host github.com:PaulKLeasure/opuzen-opms.git
+  HostName github.com
+  User git
+  IdentityFile /home/ubuntu/.ssh/id_ed25519
+  IdentitiesOnly yes
+
+Host github.com:PaulKLeasure/opuzen-website.git
+  HostName github.com
+  User git
+  IdentityFile /home/ubuntu/.ssh/id_ed25519-website
+  IdentitiesOnly yes
+
+
+

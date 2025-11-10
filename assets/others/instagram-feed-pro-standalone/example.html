@@ -1,0 +1,39 @@
+<head style="height:100%"><meta charset="UTF-8" /><meta name="viewport" content="width=device-width" /></head>
+
+<!--
+================== Instagram Feed Standalone ===================
+
+Author: Smash Balloon
+Support Website: http://smashballoon.com/instagram-feed/support
+Version: 3.3
+Copyright: Smash Balloon
+License: Non-distributable, not for resale
+
+
+FOLLOW THE 5 STEPS BELOW TO SET UP YOUR FEED.
+For more detailed directions please visit the following link: https://smashballoon.com/instagram-feed/standalone/docs
+-->
+
+<!-- 1. Add an access token to the config.php file: Generate a token here https://smashballoon.com/instagram-feed/standalone/token/ -->
+
+<!-- 2. Define the settings for your Instagram feed: -->
+<script>
+    var feed1 = {
+        "user": "opuzendesign", //Separate multiple User names with commas. Must have a related access token for the user entered into the config.php file
+        "num" : "20", //Number of posts to display
+        "cachetime" : "30" //Number of minutes until the plugin will look for new posts. Set to "0" to disable caching.
+    };
+
+    //For a full list of all available settings see: https://smashballoon.com/instagram-feed/standalone/settings
+</script>
+
+<!-- 3. Copy and paste the following line wherever you want to display the Instagram feed: -->
+<div id="sb_instagram" class="sbi" data-settings="feed1"></div>
+
+<!-- 4. If your site doesn't already include jQuery then add a link to it: -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+<!-- 5. Add the links to the plugin files to your site, make sure the path to the CSS and Javascript files are correct relative to your actual site: -->
+<link href='instagram-feed/css/sb-instagram-standalone-3.3.min.css' rel='stylesheet' id='sb_instagram_standalone_styles-css' type='text/css' media='all' />
+<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css?ver=4.6.3' rel='stylesheet' id='sbi-font-awesome-css' type='text/css' media='all' />
+<script src='instagram-feed/js/sb-instagram-standalone-3.3.min.js' id='sb_instagram_standalone_scripts-js' type='text/javascript'></script>

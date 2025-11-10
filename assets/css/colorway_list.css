@@ -1,0 +1,125 @@
+.card {
+    border: none !important;
+}
+
+.mythumb {
+/*<<<<<<< HEAD*/
+/*    max-width: 125px;*/
+/*    max-height: 125px;*/
+/*=======*/
+    max-width: 200px;
+    max-height: 200px;
+/*>>>>>>> new_website*/
+    cursor: pointer;
+    /*border: solid 1px #282828;*/
+    /*border-radius: 5px;*/
+}
+
+.text-preview-item {
+    font-size: 10px !important;
+    margin-top: 3px;
+    margin-left: 1px;
+    color: white;
+    line-height: 14px;
+    max-width: 175px !important;
+    max-height: 175px !important;
+}
+
+.text-alt-style {
+    color: #636c72 !important;
+}
+
+.img-alt-style {
+    /*border-radius: 50% !important;*/
+    /*border: none!important*/;
+}
+
+@media (max-width: 736px) {
+
+}
+
+.modal-open {
+     padding: 0 !important;
+ }
+
+.modal-dialog {
+    /*margin-top: 8%;*/
+    max-width: 450px;
+}
+
+.modal-content {
+    padding: 15px;
+    /*background-color: black;*/
+}
+
+.modal-header {
+    color: white;
+    padding: 5px 0;
+    /*background-color: #bfac02;*/
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#thumbName, #thumbColor, #thumbCode {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px !important;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+#thumbName {
+    text-transform: uppercase;
+}
+
+#image400 {
+    /*max-width: 400px;*/
+    width: 100%;
+    /*border: solid 1px #282828;*/
+}
+
+.modal-footer {
+    justify-content: center;
+    font-size: 12px;
+    background-color: #E0E0E0;
+}
+
+.modalBtnSpec, #btnDownloadImg {
+    /*background-color: #909090; */
+    /*border-radius:0;*/
+}
+
+.modalBtnSpec:hover, #btnDownloadImg:hover {
+    /*opacity:0.8;*/
+    color: white !important;
+}
+
+.modalBtnSpec > p, #btnDownloadImg > p {
+    /*color:white;*/
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#icon-bar-footer > p {
+    margin: 0;
+    padding: 6px;
+}
+
+#icon-bar-footer > p:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal-footer {
+    border: none;
+}
+
+@media (max-width: 736px) {
+    .modal-dialog {
+        margin: 0 !important;
+        max-width: none !important;
+    }
+
+
+}

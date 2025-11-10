@@ -1,0 +1,21 @@
+@page {
+  margin: 1cm 1.5cm;
+}
+
+html {
+  width: 21.5cm;
+  margin: auto;
+}
+
+body {
+  font-family: 'Karla';
+  color: rgb(140, 141, 142)!important;
+}
+
+.oz-color {
+  color: #bfac02;
+}
+
+.bkgr-green-op {
+  background: #bfac02;
+}

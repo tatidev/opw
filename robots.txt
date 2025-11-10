@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /site/
+Disallow: /site2/
+Disallow: /details
+Disallow: /signature_images/
+Disallow: /new_category_landing
+Disallow: /category_landing
+Disallow: /new_details
+Disallow: /showcase/Item_pop
+Disallow: /basics/
+Disallow: /sales/
+Disallow:	/colors_iframe_new
+Disallow: /digitalPrints_about
+Disallow: /colorway
+Disallow: /.well-known/assetlinks.json
